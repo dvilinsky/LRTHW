@@ -7,6 +7,7 @@ teeth = 'White'
 hair = 'Brown'
 height_in_cms = height * 2.54
 weight_in_kgs = weight * 0.454
+weight_string = "#{weight}"
 
 puts "\nLets talk about #{name}"
 puts "He's #{height} inches tall."
@@ -18,4 +19,3 @@ puts "He's got #{eyes} eyes and #{hair} hair."
 puts "His teeth are usually #{teeth} depending on the coffee."
 
 puts "If I add #{age}, #{height}, and #{weight}, I get #{age + height + weight}."
-puts ""
